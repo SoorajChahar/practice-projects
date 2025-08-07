@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drag and drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>simple kanban board</h1>
+
+        <div class="board">
+            <!-- list 1 -->
+            <div class="list" id="list1">
+                <h2>To Do</h2>
+                <div class="card" draggable="true" id="card1">wash dishes</div>
+                <div class="card" draggable="true" id="card2">buy groceries</div>
+            </div>
+            <!-- list 2 -->
+            <div class="list" id="list1">
+                <h2>In Progress</h2>
+                <div class="card" draggable="true" id="card1">learn to code</div>
+            </div>
+            <!-- list 3 -->
+            <div class="list" id="list1">
+                <h2>Done</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
